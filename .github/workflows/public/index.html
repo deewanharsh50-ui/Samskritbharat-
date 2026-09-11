@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSU Student Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🏛️ CSU Student Assistant</h1>
+        <p>Created & Maintained by Harsh | Powered by Gemini Flash</p>
+    </header>
+    <div id="chat-box">
+        <div class="msg bot">Namaste! Main Central Sanskrit University (CSU) ka student assistant hoon. Main aapki kya madad kar sakta hoon?</div>
+    </div>
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Apna sawal likhein..." onkeypress="if(event.key==='Enter') sendMsg()">
+        <button onclick="sendMsg()">Send</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
